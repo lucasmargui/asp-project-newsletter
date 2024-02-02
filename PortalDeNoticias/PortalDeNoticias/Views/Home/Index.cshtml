@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PortalDeNoticias.Models.Noticia>
+
+@{
+	ViewData["Title"] = "Portal Noticias";
+}
+
+
+@foreach (var item in Model)
+{
+
+
+
+	<div class="card mb-3">
+		<img class="card-img-top" src="https://fakeimg.pl/600x400?text=Noticia+Placeholder" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">@item.Titulo</h5>
+			<p class="card-text">@item.Conteudo.Substring(0, 100) ...</p>
+			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			<p class="card-text">@Html.ActionLink("Ler mais", "Detalhes", "Noticias", new { id = @item.Id }, new { @class = "btn btn-primary" })</p>
+
+
+		</div>
+	</div>
+
+
+}
+

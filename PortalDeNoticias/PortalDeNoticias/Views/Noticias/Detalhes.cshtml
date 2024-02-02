@@ -1,0 +1,14 @@
+﻿@model PortalDeNoticias.Models.Noticia
+
+@{
+	ViewData["Title"] = "Detalhes da notícia";
+}
+
+<div class="card mb-3">
+	<img class="card-img-top" src="https://fakeimg.pl/900x600?text=Noticia+Placeholder" alt="Card image cap">
+	<div class="card-body">
+		<h5 class="card-title">@Model.Titulo</h5>
+		<p class="card-text">@Model.Conteudo</p>
+		<p class="card-text"><small class="text-muted">Publicado por <strong>@Model.Autor</strong> em <strong>@Model.Data.ToString("dd/MM/yyyy")</strong></small></p>
+	</div>
+</div>
