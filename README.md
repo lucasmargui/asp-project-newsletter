@@ -9,6 +9,9 @@
 
 ## Criação de Models
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 ### Classe Noticias
 ```
 Models/Noticia.cs
@@ -21,9 +24,17 @@ Models/RepositorioNoticias.cs
 ```
 Criação de classe que servirá como representação de conjunto de dados
 
+</details>
+
+
+
+
 
 ## Criação de Controller
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 ### HomeController
 
 ```
@@ -39,8 +50,16 @@ Controller/NoticiasController.cs
 ```
 Criação de NoticiasController para que ao clicar sobre a noticia seja redirecionado para uma página exibindo detalhes
 
+</details>
+
+
+
+
 ## Criação da View
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 ### Index
 ```
 Home/Index.cs
@@ -53,13 +72,26 @@ Noticias/Detalhes.cs
 ```
 Esta view foi gerada a partir do controller Noticias/Detalhes e modificada com elementos de bootstrap
 
+</details>
+
+
+
 # Resultado
 
-## View Index
 
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1202857548911218708/image.png?ex=65cefb63&is=65bc8663&hm=60d8bab30160c73bddb53e59bd48f972abc88694942873f0c41ab623aea945cd&" alt="">
 
-## View Detalhes
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1202857768248414238/image.png?ex=65cefb97&is=65bc8697&hm=d76422b6643a6d9247c2be26ae0d434d1072e231678dd4166e78bf5508b8bbcb&" alt="">
+
+<div align="center">
+    <h3> View Index</h3>
+<img src="https://github.com/lucasmargui/ASP_Portal_de_Noticias/assets/157809964/d3e02408-0f39-4509-9e01-c82c75912811" style="width:90%">
+</div>
+
+
+<div align="center">
+  <h3>View Detalhes</h3>
+<img src="https://github.com/lucasmargui/ASP_Portal_de_Noticias/assets/157809964/2562b83d-a32e-4501-b280-0aa6a1df2a4b" style="width:90%">
+</div>
+
+
 
 
