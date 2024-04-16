@@ -1,39 +1,36 @@
-<H1 align="center">Estrutura Portal Noticias</H1>
-<p align="center">🚀 Projeto de criação de uma estrutura de portal noticias para referências futuras</p>
+<H1 align="center">Newsletter Structure</H1>
+<p align="center">🚀 Project to create a newsletter structure for future references</p>
 
 
 
-## Recursos Utilizados
+## Resources Used
 
 * .NET 5.0
 
-## Criação de Models
+## Model Create
 
 <details>
-  <summary>Clique para mostrar conteúdo</summary>
+   <summary>Click to show content</summary>
   
-### Classe Noticias
+### News Class
 ```
 Models/Noticia.cs
 ```
-Criação de classe que servirá como base para as noticias.
+Creation of a class that will serve as the basis for the news.
 
-### Classe Repositório Noticias
+### News Repository Class
 ```
 Models/RepositorioNoticias.cs
 ```
-Criação de classe que servirá como representação de conjunto de dados
+Creating a class that will serve as a data set representation
 
 </details>
 
 
-
-
-
-## Criação de Controller
+## Controller Create
 
 <details>
-  <summary>Clique para mostrar conteúdo</summary>
+   <summary>Click to show content</summary>
   
 ### HomeController
 
@@ -41,57 +38,47 @@ Criação de classe que servirá como representação de conjunto de dados
 Controller/HomeController.cs
 ```
 
-Alteração em homecontroller para que a pagina seja carregada listando as noticias.
+Change in homecontroller so that the page is loaded listing the news.
 
-### NoticiasController
+### NewsController
 
 ```
 Controller/NoticiasController.cs
 ```
-Criação de NoticiasController para que ao clicar sobre a noticia seja redirecionado para uma página exibindo detalhes
+Creation of NoticiasController so that when clicking on the news, you are redirected to a page displaying details
 
 </details>
 
 
-
-
-## Criação da View
+## View Create
 
 <details>
-  <summary>Clique para mostrar conteúdo</summary>
+   <summary>Click to show content</summary>
   
 ### Index
 ```
 Home/Index.cs
 ```
-Esta view foi gerada a partir do controller Home/Index e modificada com elementos de bootstrap
+This view was generated from the Home/Index controller and modified with bootstrap elements
 
-### Detalhes
+### Details
 ```
-Noticias/Detalhes.cs
+News/Details.cs
 ```
-Esta view foi gerada a partir do controller Noticias/Detalhes e modificada com elementos de bootstrap
+This view was generated from the Noticias/Details controller and modified with bootstrap elements
 
 </details>
 
 
-
-# Resultado
-
-
-
+### Result
 
 <div align="center">
-    <h3> View Index</h3>
+     <h3>View Index</h3>
 <img src="https://github.com/lucasmargui/ASP_Portal_de_Noticias/assets/157809964/d3e02408-0f39-4509-9e01-c82c75912811" style="width:90%">
 </div>
 
 
 <div align="center">
-  <h3>View Detalhes</h3>
+   <h3>View Details</h3>
 <img src="https://github.com/lucasmargui/ASP_Portal_de_Noticias/assets/157809964/2562b83d-a32e-4501-b280-0aa6a1df2a4b" style="width:90%">
 </div>
-
-
-
-
